@@ -1,0 +1,9 @@
+{
+  "name": "my-monorepo-boilerplate",
+  "version": "0.0.1",
+  "description": "My Monorepo Boilerplate",
+  "main": "index.js",
+  "repository": "git@github.com:hharnisc/my-monorepo-boilerplate.git",
+  "author": "Harrison Harnisch <hharnisc@gmail.com>",
+  "license": "MIT"
+}
