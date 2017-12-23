@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:hharnisc/my-monorepo-boilerplate.git",
   "author": "Harrison Harnisch <hharnisc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
 }
