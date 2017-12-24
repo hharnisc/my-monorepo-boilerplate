@@ -7,6 +7,7 @@
   "author": "Harrison Harnisch <hharnisc@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^22.0.4",
     "lerna": "^2.5.1"
   }
 }
