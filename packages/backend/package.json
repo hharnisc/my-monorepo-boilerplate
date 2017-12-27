@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "hharnisc@gmail.com",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }

@@ -6,6 +6,13 @@
   "repository": "git@github.com:hharnisc/my-monorepo-boilerplate.git",
   "author": "Harrison Harnisch <hharnisc@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "package-install": "yarn"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
   "devDependencies": {
     "jest": "^22.0.4",
     "lerna": "^2.5.1"
