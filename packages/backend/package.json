@@ -6,6 +6,9 @@
   "author": "hharnisc@gmail.com",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "express": "^4.16.2"
   }

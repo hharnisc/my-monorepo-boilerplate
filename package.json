@@ -7,6 +7,7 @@
   "author": "Harrison Harnisch <hharnisc@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "cd ./packages/backend/ && yarn start",
     "package-install": "yarn"
   },
   "workspaces": [
