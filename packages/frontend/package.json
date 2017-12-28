@@ -1,0 +1,9 @@
+{
+  "name": "my-monorepo-boilerplate-frontend",
+  "version": "0.0.0",
+  "description": "My Monorepo Boilerplate Frontend Package",
+  "main": "index.js",
+  "author": "hharnisc@gmail.com",
+  "license": "MIT",
+  "private": false
+}
