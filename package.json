@@ -8,14 +8,19 @@
   "license": "MIT",
   "scripts": {
     "start": "cd ./packages/backend/ && yarn start",
-    "package-install": "yarn"
+    "package-install": "yarn",
+    "start-storybook": "start-storybook -p 9000"
   },
   "workspaces": [
     "packages/*"
   ],
   "private": true,
   "devDependencies": {
+    "@storybook/addon-storyshots": "^3.3.2",
+    "@storybook/react": "^3.3.2",
     "jest": "^22.0.4",
-    "lerna": "^2.5.1"
+    "lerna": "^2.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
