@@ -18,6 +18,10 @@
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.3.2",
     "@storybook/react": "^3.3.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "jest": "^22.0.4",
     "lerna": "^2.5.1",
     "react": "^16.2.0",
