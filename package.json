@@ -24,7 +24,7 @@
     "babel-preset-react": "^6.24.1",
     "jest": "^22.0.4",
     "lerna": "^2.5.1",
-    "my-component-library-boilerplate": "^0.0.1",
+    "my-component-library-boilerplate": "^0.0.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }

@@ -4865,9 +4865,9 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-my-component-library-boilerplate@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/my-component-library-boilerplate/-/my-component-library-boilerplate-0.0.1.tgz#eac3dbe4212d5f0f5390fabe97f095c3955274ff"
+my-component-library-boilerplate@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/my-component-library-boilerplate/-/my-component-library-boilerplate-0.0.2.tgz#adac1ed19625c8fb1f02197a7a1a78d734e09174"
 
 nan@^2.0.5, nan@^2.3.0:
   version "2.8.0"
