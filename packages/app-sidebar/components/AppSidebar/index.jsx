@@ -56,24 +56,24 @@ export default ({
           </Link>)}
       />
     </div>
-  <div
-    style={{
-      display: 'flex',
-      alignItems: 'center',
-    }}
-  >
-  <Image
-    src={profile.image}
-    height={'2rem'}
-    width={'2rem'}
-  />
     <div
       style={{
-        flexGrow: 1,
-        paddingLeft: '1rem',
+        display: 'flex',
+        alignItems: 'center',
       }}
     >
-      <Text>{profile.name}</Text>
+      <Image
+        src={profile.image}
+        height={'2rem'}
+        width={'2rem'}
+      />
+      <div
+        style={{
+          flexGrow: 1,
+          paddingLeft: '1rem',
+        }}
+      >
+        <Text>{profile.name}</Text>
+      </div>
     </div>
-  </div>
   </nav>
