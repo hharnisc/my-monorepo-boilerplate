@@ -27,6 +27,8 @@
     "lerna": "^2.5.1",
     "my-component-library-boilerplate": "^0.0.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   }
 }
