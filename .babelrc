@@ -4,6 +4,7 @@
     "react"
   ],
   "plugins": [
-    "transform-export-extensions"
+    "transform-export-extensions",
+    "transform-object-rest-spread"
   ]
 }
