@@ -37,14 +37,14 @@ export default (state=initialState, action) => {
 
 export const actions = {
   fetchUser: () => ({
-    type: actions.FETCH_USER_START,
+    type: actionTypes.FETCH_USER_START,
   }),
   fetchUserSuccess: ({ user }) => ({
-    type: actions.FETCH_USER_SUCCESS,
+    type: actionTypes.FETCH_USER_SUCCESS,
     user,
   }),
   fetchUserFail: ({ error }) => ({
-    type: actions.FETCH_USER_FAIL,
+    type: actionTypes.FETCH_USER_FAIL,
     error,
   }),
 };

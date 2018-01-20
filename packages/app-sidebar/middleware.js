@@ -8,15 +8,15 @@ export default ({ dispatch }) => next => async action => {
   next(action);
   switch (action.type) {
     case 'APP_INIT':
-      dispatch(action.fetchUser());
+      dispatch(actions.fetchUser());
       break;
     case actionTypes.FETCH_USER_START:
       try {
         const response = await fetch('/api/user');
         const user = await response.json();
-        dispatch(action.fetchUserSuccess({ user }));
+        dispatch(actions.fetchUserSuccess({ user }));
       } catch (error) {
-        dispatch(action.fetchUserFail({ error }));
+        dispatch(actions.fetchUserFail({ error: error.message }));
       }
       break;
     default:
