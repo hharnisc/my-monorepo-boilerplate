@@ -1,0 +1,9 @@
+{
+  "name": "my-monorepo-boilerplate-store",
+  "version": "0.0.0",
+  "description": "Store Package",
+  "main": "index.js",
+  "author": "hharnisc@gmail.com",
+  "license": "MIT",
+  "private": false
+}
