@@ -6,6 +6,7 @@
   "author": "hharnisc@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "my-monorepo-boilerplate-app-sidebar": "0.0.0",
     "my-monorepo-boilerplate-store": "0.0.0"
   },
   "private": false

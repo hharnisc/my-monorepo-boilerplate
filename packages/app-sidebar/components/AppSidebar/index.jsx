@@ -63,7 +63,7 @@ export default ({
       }}
     >
       <Image
-        src={profile.image}
+        src={profile ? profile.image : undefined}
         height={'2rem'}
         width={'2rem'}
       />
@@ -73,7 +73,7 @@ export default ({
           paddingLeft: '1rem',
         }}
       >
-        <Text>{profile.name}</Text>
+        <Text>{profile ? profile.name : undefined}</Text>
       </div>
     </div>
   </nav>
