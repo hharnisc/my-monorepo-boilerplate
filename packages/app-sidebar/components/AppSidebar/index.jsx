@@ -18,7 +18,32 @@ const menuItems = [
   },
 ];
 
+const Loading = () => <Text>Loading...</Text>;
+
+const Profile = ({ profile }) =>
+  <div
+    style={{
+      display: 'flex',
+      alignItems: 'center',
+    }}
+  >
+    <Image
+      src={profile.image}
+      height={'2rem'}
+      width={'2rem'}
+    />
+    <div
+      style={{
+        flexGrow: 1,
+        paddingLeft: '1rem',
+      }}
+    >
+      <Text>{profile.name}</Text>
+    </div>
+  </div>;
+
 export default ({
+  loading,
   profile,
 }) =>
   <nav
@@ -56,24 +81,5 @@ export default ({
           </Link>)}
       />
     </div>
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-      }}
-    >
-      <Image
-        src={profile ? profile.image : undefined}
-        height={'2rem'}
-        width={'2rem'}
-      />
-      <div
-        style={{
-          flexGrow: 1,
-          paddingLeft: '1rem',
-        }}
-      >
-        <Text>{profile ? profile.name : undefined}</Text>
-      </div>
-    </div>
+    {loading ? <Loading /> : <Profile profile={profile} />}
   </nav>

@@ -6,6 +6,7 @@ export const storeKey = 'AppSidebar';
 export default connect(
   state => ({
     profile: state[storeKey].user ? state[storeKey].user.profile : undefined,
+    loading: state[storeKey].loading,
   }),
 )(AppSidebar);
 
