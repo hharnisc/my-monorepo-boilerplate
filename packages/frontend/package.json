@@ -1,13 +1,13 @@
 {
   "name": "my-monorepo-boilerplate-frontend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "My Monorepo Boilerplate Frontend Package",
   "main": "index.jsx",
   "author": "hharnisc@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "my-monorepo-boilerplate-app-sidebar": "0.0.0",
-    "my-monorepo-boilerplate-store": "0.0.0"
+    "my-monorepo-boilerplate-app-sidebar": "0.0.1",
+    "my-monorepo-boilerplate-store": "0.0.1"
   },
   "private": false
 }

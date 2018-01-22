@@ -1,6 +1,6 @@
 {
   "name": "my-monorepo-boilerplate-backend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "My Monorepo Boilerplace Backend Package",
   "main": "index.js",
   "author": "hharnisc@gmail.com",

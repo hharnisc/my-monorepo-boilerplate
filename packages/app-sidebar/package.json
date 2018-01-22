@@ -1,6 +1,6 @@
 {
   "name": "my-monorepo-boilerplate-app-sidebar",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "App Sidebar Molecule",
   "main": "index.js",
   "author": "hharnisc@gmail.com",

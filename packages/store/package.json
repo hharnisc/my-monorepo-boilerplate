@@ -1,12 +1,12 @@
 {
   "name": "my-monorepo-boilerplate-store",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Store Package",
   "main": "index.js",
   "author": "hharnisc@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "my-monorepo-boilerplate-app-sidebar": "0.0.0"
+    "my-monorepo-boilerplate-app-sidebar": "0.0.1"
   },
   "private": false
 }
