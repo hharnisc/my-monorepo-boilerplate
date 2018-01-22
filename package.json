@@ -9,7 +9,8 @@
   "scripts": {
     "start": "cd ./packages/backend/ && yarn start",
     "package-install": "yarn",
-    "start-storybook": "start-storybook -p 9000"
+    "start-storybook": "start-storybook -p 9000",
+    "publish": "lerna publish --exact"
   },
   "workspaces": [
     "packages/*"
